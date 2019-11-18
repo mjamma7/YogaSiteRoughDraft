@@ -1,0 +1,62 @@
+body{
+	
+font-family: serif, sans-serif;
+
+/*background-image: url("img/NAMEOFIMAGE.jpg");*/
+}
+
+header{
+background:#ADCCD8;
+
+width:96.5%;
+padding:10px;
+display:table;
+border-radius:10px 0 10px 0;
+box-shadow:4px 4px 5px #696969;
+}
+header h1{
+	display:table-cell;
+	padding: 0 0 5px -1px;
+	width: 40%;
+	font-family:'Droid Sans';
+	font-weight:400;
+	line-height:1;
+	letter-spacing:-.05em;
+	color:#0E1826;
+}
+nav{
+	background:#ADCCD8;
+	text-align:center;
+	width:40%;
+	display: table-cell;
+}
+nav ul{
+	display:inline;
+	text-align:center;
+}
+nav li{
+	display:inline-block;
+	list-style-type:none;
+}
+
+nav a{
+	font-family:'Open Sans Condensed';
+	font-weight:700;
+	font-size:.85em;
+	display:block;
+	background-color: #8FBDD9;
+	padding:10px;
+	text-decoration: none;
+	font-color:#0E1826;
+	box-shadow:4px 4px 5px #696969;
+}
+
+/*Change the link color on hover*/
+li a:hover{
+	background-color: #FFC94F;
+	color: black;
+}
+/*Change the link after click*/
+nav.active{
+	background-color: #4CAF50;
+}
